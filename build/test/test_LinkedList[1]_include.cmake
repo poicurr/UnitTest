@@ -1,0 +1,5 @@
+if(EXISTS "/home/dknb/dev/exp/UnitTest/build/test/test_LinkedList[1]_tests.cmake")
+  include("/home/dknb/dev/exp/UnitTest/build/test/test_LinkedList[1]_tests.cmake")
+else()
+  add_test(test_LinkedList_NOT_BUILT test_LinkedList_NOT_BUILT)
+endif()

@@ -1,0 +1,7 @@
+add_test( LinkedListCreate.CheckInitialCondition /home/dknb/dev/exp/UnitTest/build/test/test_LinkedList [==[--gtest_filter=LinkedListCreate.CheckInitialCondition]==] --gtest_also_run_disabled_tests)
+set_tests_properties( LinkedListCreate.CheckInitialCondition PROPERTIES WORKING_DIRECTORY /home/dknb/dev/exp/UnitTest/build/test VS_DEBUGGER_WORKING_DIRECTORY)
+add_test( LinkedListTest.Destruction /home/dknb/dev/exp/UnitTest/build/test/test_LinkedList [==[--gtest_filter=LinkedListTest.Destruction]==] --gtest_also_run_disabled_tests)
+set_tests_properties( LinkedListTest.Destruction PROPERTIES WORKING_DIRECTORY /home/dknb/dev/exp/UnitTest/build/test VS_DEBUGGER_WORKING_DIRECTORY)
+add_test( LinkedListTest.CheckValues /home/dknb/dev/exp/UnitTest/build/test/test_LinkedList [==[--gtest_filter=LinkedListTest.CheckValues]==] --gtest_also_run_disabled_tests)
+set_tests_properties( LinkedListTest.CheckValues PROPERTIES WORKING_DIRECTORY /home/dknb/dev/exp/UnitTest/build/test VS_DEBUGGER_WORKING_DIRECTORY)
+set( test_LinkedList_TESTS LinkedListCreate.CheckInitialCondition LinkedListTest.Destruction LinkedListTest.CheckValues)

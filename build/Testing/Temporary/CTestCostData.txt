@@ -1,0 +1,18 @@
+Construction_Destruction.type_int 4 0.00135435
+Construction_Destruction.type_int_empty 4 0.000638001
+Construction_Destruction.type_std_string 4 0.000710182
+Construction_Destruction.type_std_string_empty 4 0.000627384
+CheckValues.type_int 9 0.000349666
+CheckValues.type_std_string 6 0.000415282
+Construction.type_int 6 0.000480674
+Construction.type_std_string 3 0.0013158
+Destruction.type_int 6 0.000644648
+Destruction.type_std_string 1 0.00244899
+LinkedListTest.InitialCondition 1 0.00300979
+Construction.Construction 1 0.00472557
+LinkedListTest.destruction 1 0.00311933
+LinkedListTest.checkvalues 1 0.00433277
+LinkedListCreate.CheckInitialCondition 1 0.0049093
+LinkedListTest.Destruction 1 0.00255317
+LinkedListTest.CheckValues 1 0.00294867
+---

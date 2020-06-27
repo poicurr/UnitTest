@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/LinkedList.hpp
+
+/home/dknb/dev/exp/UnitTest/src/LinkedList.cpp
+LinkedList.hpp
+-
+

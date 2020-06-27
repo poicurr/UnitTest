@@ -219,8 +219,8 @@ src/CMakeFiles/LinkedList.dir/clean:
 # Target rules for target test/CMakeFiles/test_LinkedList.dir
 
 # All Build rule for target.
-test/CMakeFiles/test_LinkedList.dir/all: test/vendor/googletest/googletest/CMakeFiles/gtest.dir/all
 test/CMakeFiles/test_LinkedList.dir/all: test/vendor/googletest/googletest/CMakeFiles/gtest_main.dir/all
+test/CMakeFiles/test_LinkedList.dir/all: test/vendor/googletest/googletest/CMakeFiles/gtest.dir/all
 test/CMakeFiles/test_LinkedList.dir/all: test/vendor/googletest/googlemock/CMakeFiles/gmock.dir/all
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_LinkedList.dir/build.make test/CMakeFiles/test_LinkedList.dir/depend
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_LinkedList.dir/build.make test/CMakeFiles/test_LinkedList.dir/build
